@@ -7,6 +7,6 @@ export const todosReducer = (state = initialState,action) =>{
             return{...state,todos: action.payload}
         }
         default :
-            return state
+            return state;
     }
 }

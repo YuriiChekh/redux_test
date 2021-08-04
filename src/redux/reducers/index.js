@@ -4,5 +4,5 @@ import {counterReducer} from "./counter";
 
 export const rootReducer = combineReducers({
     todosReducer,
-    counterReducer
+    counterReducer,
 })

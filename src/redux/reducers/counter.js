@@ -7,6 +7,6 @@ export const counterReducer = (state = initialState,action) =>{
             return{...state, value: state.value + 1}
         }
         default :
-            return state
+            return state;
     }
 }
